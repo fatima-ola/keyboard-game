@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Speed Typing Game</title>
+</head>
+<body>
+    <section class="container">
+        <h2>Speed Typing Game</h2>
+        <p>Type the given word within <span id="seconds"></span> Seconds</p>
+        <div>
+            <h1 id="words"></h1>
+        </div>
+        <input type="text" placeholder="Start typing here..." autofocus id="word-input"/>
+        <h4 id="message"></h4>
+        <div>
+            <h3>Time Left: <span id="time-left">0</span></h3>
+            <h3>Score:<span id="score">0</span></h3>
+        </div>
+        <div class="instruction">
+            <h3>Instructions</h3>
+            <p>Type each word in the given amount of seconds to score.<br />
+                To play again, just type the current word. Your score will reset
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
